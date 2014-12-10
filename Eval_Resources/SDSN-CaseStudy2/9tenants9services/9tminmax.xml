@@ -19,40 +19,17 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:MaxCapacity>22</tns1:MaxCapacity>
+                <tns1:MaxCapacity>12</tns1:MaxCapacity>
                 <tns1:Interval>20</tns1:Interval>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>29</tns1:MaxCapacity>
+            <tns1:MaxCapacity>12</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
     </ProcessDefinitions>
 
     <ProcessDefinitions id="HappyTours2">
-        <tns1:ProcessDefinition id="HappyTourPar32" descr="Process definitions for HappyTour using SwiftTow">
-            <tns1:CoS>ecomplainReqd</tns1:CoS>
-            <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
-            <tns1:BehaviorTermRefs>
-                <tns1:BehavirTermId>CallHandlingParTowInRepairVehicleHire</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RepairingInParTow</tns1:BehavirTermId>
-                <tns1:BehavirTermId>TowingPar3</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RentingVehicle</tns1:BehavirTermId>
-            </tns1:BehaviorTermRefs>
-            <tns1:Constraints>
-            </tns1:Constraints>
-            <tns1:Traffic>
-                <tns1:MaxCapacity>50</tns1:MaxCapacity>
-                <tns1:Interval>20</tns1:Interval>
-            </tns1:Traffic>
-        </tns1:ProcessDefinition>
-        <tns1:Traffic>
-            <tns1:MaxCapacity>40</tns1:MaxCapacity>
-            <tns1:Interval>20</tns1:Interval>
-        </tns1:Traffic>
-    </ProcessDefinitions>
-
-    <ProcessDefinitions id="HappyTours3">
         <tns1:ProcessDefinition id="HappyToursSeqTow52" descr="Process definitions for EuroCars using SwiftTow">
             <tns1:CoS>ecomplainReqd</tns1:CoS>
             <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
@@ -65,42 +42,17 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:MaxCapacity>66</tns1:MaxCapacity>
+                <tns1:MaxCapacity>38</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>42</tns1:MaxCapacity>
+            <tns1:MaxCapacity>38</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
     </ProcessDefinitions>
 
-    <ProcessDefinitions id="AnyTrucks1">
-        <tns1:ProcessDefinition id="AnyTrucksPar23" descr="Process definitions for HappyTour using SwiftTow">
-            <tns1:CoS>ecomplainReqd</tns1:CoS>
-            <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
-            <tns1:BehaviorTermRefs>
-                <tns1:BehavirTermId>CallHandlingParTowInRepairVehicleHire</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RepairingInParTow</tns1:BehavirTermId>
-                <tns1:BehavirTermId>TowingPar2</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RentingVehicle</tns1:BehavirTermId>
-            </tns1:BehaviorTermRefs>
-            <tns1:Constraints>
-            </tns1:Constraints>
-            <tns1:Traffic>
-                <tns1:MaxCapacity>30</tns1:MaxCapacity>
-                <tns1:Interval>20</tns1:Interval>
-            </tns1:Traffic>
-        </tns1:ProcessDefinition>
-        <tns1:Traffic>
-            <tns1:MaxCapacity>33</tns1:MaxCapacity>
-            <tns1:Interval>20</tns1:Interval>
-        </tns1:Traffic>
-        <!-- This is a process definition -->
-    </ProcessDefinitions>
-
-    <ProcessDefinitions id="AnyTrucks2">
-
-        <tns1:ProcessDefinition id="AnyTruckParTow41" descr="Process definitions for AnyTruck using SwiftTow">
+    <ProcessDefinitions id="HappyTours3">
+        <tns1:ProcessDefinition id="HappyToursParTow43" descr="Process definitions for HappyTours using SwiftTow">
             <tns1:CoS>ecomplainReqd</tns1:CoS>
             <tns1:CoT>ecomplainResd * enotifyRoomPaymentReqd</tns1:CoT>
             <tns1:BehaviorTermRefs>
@@ -110,44 +62,19 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:MaxCapacity>58</tns1:MaxCapacity>
+                <tns1:MaxCapacity>106</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
             </tns1:Constraints>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>42</tns1:MaxCapacity>
-            <tns1:Interval>20</tns1:Interval>
-        </tns1:Traffic>
-
-    </ProcessDefinitions>
-
-    <ProcessDefinitions id="AnyTrucks3">
-        <!-- This is a process definition -->
-        <tns1:ProcessDefinition id="AnyTruckSeqTow13" descr="Process definitions for AnyTruck using TomTow">
-            <tns1:CoS>ecomplainReqd</tns1:CoS>
-            <tns1:CoT>ecomplainResd * enotifyRoomPaymentReqd</tns1:CoT>
-            <tns1:BehaviorTermRefs>
-                <tns1:BehavirTermId>CallHandlingSeqTowExRepairAccommodation</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RepairingExSeqTow</tns1:BehavirTermId>
-                <tns1:BehavirTermId>TowingSeq1</tns1:BehavirTermId>
-                <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
-            </tns1:BehaviorTermRefs>
-            <tns1:Traffic>
-                <tns1:MaxCapacity>14</tns1:MaxCapacity>
-            </tns1:Traffic>
-            <tns1:Constraints>
-            </tns1:Constraints>
-        </tns1:ProcessDefinition>
-        <tns1:Traffic>
-            <tns1:MaxCapacity>45</tns1:MaxCapacity>
+            <tns1:MaxCapacity>106</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
     </ProcessDefinitions>
 
-    <ProcessDefinitions id="EuroCars1">
-
-        <tns1:ProcessDefinition id="EuroCarsSeqTow41" descr="Process definitions for EuroCars using SwiftTow">
+    <ProcessDefinitions id="AnyTrucks1">
+        <tns1:ProcessDefinition id="AnyTrucksSeqTow41" descr="Process definitions for AnyTrucks using SwiftTow">
             <tns1:CoS>ecomplainReqd</tns1:CoS>
             <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
             <tns1:BehaviorTermRefs>
@@ -159,18 +86,18 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:MaxCapacity>40</tns1:MaxCapacity>
+                <tns1:MaxCapacity>19</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>39</tns1:MaxCapacity>
+            <tns1:MaxCapacity>19</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
+        <!-- This is a process definition -->
     </ProcessDefinitions>
 
-    <ProcessDefinitions id="EuroCars2">
-        <!-- This is a process definition -->
-        <tns1:ProcessDefinition id="AnyTruckSeqTow22" descr="Process definitions for AnyTruck using TomTow">
+    <ProcessDefinitions id="AnyTrucks2">
+        <tns1:ProcessDefinition id="AnyTruckSeqTow21" descr="Process definitions for AnyTruck using TomTow">
             <tns1:CoS>ecomplainReqd</tns1:CoS>
             <tns1:CoT>ecomplainResd * enotifyRoomPaymentReqd</tns1:CoT>
             <tns1:BehaviorTermRefs>
@@ -180,17 +107,89 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:MaxCapacity>47</tns1:MaxCapacity>
+                <tns1:MaxCapacity>111</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
             </tns1:Constraints>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>76</tns1:MaxCapacity>
+            <tns1:MaxCapacity>111</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
 
     </ProcessDefinitions>
+
+    <ProcessDefinitions id="AnyTrucks3">
+        <!-- This is a process definition -->
+        <tns1:ProcessDefinition id="AnyTrucksPar33" descr="Process definitions forAnyTrucks using SwiftTow">
+            <tns1:CoS>ecomplainReqd</tns1:CoS>
+            <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
+            <tns1:BehaviorTermRefs>
+                <tns1:BehavirTermId>CallHandlingParTowInRepairVehicleHire</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RepairingInParTow</tns1:BehavirTermId>
+                <tns1:BehavirTermId>TowingPar3</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RentingVehicle</tns1:BehavirTermId>
+            </tns1:BehaviorTermRefs>
+            <tns1:Constraints>
+            </tns1:Constraints>
+            <tns1:Traffic>
+                <tns1:MaxCapacity>7</tns1:MaxCapacity>
+                <tns1:Interval>20</tns1:Interval>
+            </tns1:Traffic>
+        </tns1:ProcessDefinition>
+        <tns1:Traffic>
+            <tns1:MaxCapacity>7</tns1:MaxCapacity>
+            <tns1:Interval>20</tns1:Interval>
+        </tns1:Traffic>
+    </ProcessDefinitions>
+
+    <ProcessDefinitions id="EuroCars1">
+
+        <tns1:ProcessDefinition id="EuroCarsSeqTow11" descr="Process definitions for EuroCarsusing TomTow">
+            <tns1:CoS>ecomplainReqd</tns1:CoS>
+            <tns1:CoT>ecomplainResd * enotifyRoomPaymentReqd</tns1:CoT>
+            <tns1:BehaviorTermRefs>
+                <tns1:BehavirTermId>CallHandlingSeqTowExRepairAccommodation</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RepairingExSeqTow</tns1:BehavirTermId>
+                <tns1:BehavirTermId>TowingSeq1</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
+            </tns1:BehaviorTermRefs>
+            <tns1:Traffic>
+                <tns1:MaxCapacity>22</tns1:MaxCapacity>
+            </tns1:Traffic>
+            <tns1:Constraints>
+            </tns1:Constraints>
+        </tns1:ProcessDefinition>
+        <tns1:Traffic>
+            <tns1:MaxCapacity>39</tns1:MaxCapacity>
+            <tns1:Interval>20</tns1:Interval>
+        </tns1:Traffic>
+    </ProcessDefinitions>
+
+    <ProcessDefinitions id="EuroCars2">
+        <!-- This is a process definition -->
+        <tns1:ProcessDefinition id="EuroCarsPar21" descr="Process definitions for EuroCars using SwiftTow">
+            <tns1:CoS>ecomplainReqd</tns1:CoS>
+            <tns1:CoT>ecomplainResd * enotifyVehiclePaymentReqd</tns1:CoT>
+            <tns1:BehaviorTermRefs>
+                <tns1:BehavirTermId>CallHandlingParTowInRepairVehicleHire</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RepairingInParTow</tns1:BehavirTermId>
+                <tns1:BehavirTermId>TowingPar2</tns1:BehavirTermId>
+                <tns1:BehavirTermId>RentingVehicle</tns1:BehavirTermId>
+            </tns1:BehaviorTermRefs>
+            <tns1:Constraints>
+            </tns1:Constraints>
+            <tns1:Traffic>
+                <tns1:MaxCapacity>40</tns1:MaxCapacity>
+                <tns1:Interval>20</tns1:Interval>
+            </tns1:Traffic>
+        </tns1:ProcessDefinition>
+        <tns1:Traffic>
+            <tns1:MaxCapacity>40</tns1:MaxCapacity>
+            <tns1:Interval>20</tns1:Interval>
+        </tns1:Traffic>
+    </ProcessDefinitions>
+
     <ProcessDefinitions id="EuroCars3">
         <tns1:ProcessDefinition id="EuroCarsSeqTow33" descr="Process definitions for EuroCars using SwiftTow">
             <tns1:CoS>ecomplainReqd</tns1:CoS>
@@ -204,11 +203,11 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:MaxCapacity>4</tns1:MaxCapacity>
+                <tns1:MaxCapacity>5</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
         <tns1:Traffic>
-            <tns1:MaxCapacity>43</tns1:MaxCapacity>
+            <tns1:MaxCapacity>5</tns1:MaxCapacity>
             <tns1:Interval>20</tns1:Interval>
         </tns1:Traffic>
     </ProcessDefinitions>
