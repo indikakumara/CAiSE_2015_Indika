@@ -76,7 +76,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>2</tns1:Preference>
+                <tns1:Preference>1</tns1:Preference>
                 <tns1:MaxCapacity>7</tns1:MaxCapacity>
                 <tns1:Interval>20</tns1:Interval>
             </tns1:Traffic>
@@ -91,7 +91,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>4</tns1:Preference>
+                <tns1:Preference>1</tns1:Preference>
                 <tns1:MaxCapacity>10</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -130,7 +130,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>4</tns1:Preference>
+                <tns1:Preference>3</tns1:Preference>
                 <tns1:MaxCapacity>32</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -154,7 +154,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>1</tns1:Preference>
+                <tns1:Preference>3</tns1:Preference>
                 <tns1:MaxCapacity>6</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -170,7 +170,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>4</tns1:Preference>
+                <tns1:Preference>5</tns1:Preference>
                 <tns1:MaxCapacity>9</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -210,7 +210,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>1</tns1:Preference>
+                <tns1:Preference>3</tns1:Preference>
                 <tns1:MaxCapacity>15</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -258,7 +258,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>2</tns1:Preference>
+                <tns1:Preference>1</tns1:Preference>
                 <tns1:MaxCapacity>5</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -282,7 +282,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>3</tns1:Preference>
+                <tns1:Preference>5</tns1:Preference>
                 <tns1:MaxCapacity>36</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -426,7 +426,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>1</tns1:Preference>
+                <tns1:Preference>2</tns1:Preference>
                 <tns1:MaxCapacity>16</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
@@ -442,7 +442,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>1</tns1:Preference>
+                <tns1:Preference>2</tns1:Preference>
                 <tns1:MaxCapacity>14</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
@@ -480,7 +480,7 @@
                 <tns1:BehavirTermId>RentingRoom</tns1:BehavirTermId>
             </tns1:BehaviorTermRefs>
             <tns1:Traffic>
-                <tns1:Preference>3</tns1:Preference>
+                <tns1:Preference>1</tns1:Preference>
                 <tns1:MaxCapacity>3</tns1:MaxCapacity>
             </tns1:Traffic>
             <tns1:Constraints>
@@ -498,7 +498,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>1</tns1:Preference>
+                <tns1:Preference>20</tns1:Preference>
                 <tns1:MaxCapacity>62</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
