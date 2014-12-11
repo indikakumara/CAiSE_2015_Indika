@@ -218,7 +218,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>3</tns1:Preference>
+                <tns1:Preference>11</tns1:Preference>
                 <tns1:MaxCapacity>56</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
@@ -250,7 +250,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>3</tns1:Preference>
+                <tns1:Preference>4</tns1:Preference>
                 <tns1:MaxCapacity>19</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
@@ -266,7 +266,7 @@
             <tns1:Constraints>
             </tns1:Constraints>
             <tns1:Traffic>
-                <tns1:Preference>5</tns1:Preference>
+                <tns1:Preference>8</tns1:Preference>
                 <tns1:MaxCapacity>38</tns1:MaxCapacity>
             </tns1:Traffic>
         </tns1:ProcessDefinition>
