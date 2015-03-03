@@ -6,4 +6,4 @@ To run the SDSN designs, the ROAD middleware is needed [1]. Please contact the f
 
 To run the BPEL case study, please use apache ODE (http://ode.apache.org/getting-ode.html). The version is 1.3.6.
 
-[1] http://www.swinburne.edu.au/ict/success/research-projects-and-grants/role-oriented-adaptive-design/implementations/past-implementations.html
+[1] http://www.swinburne.edu.au/ict/success/research-projects-and-grants/role-oriented-adaptive-design/download.html
